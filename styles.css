@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    line-height: 1.6;
+}
+
+a {
+    color: #64ffda;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #64ffda;
+    font-size: 18px;
+}
+
+.resume-btn {
+    border: 1px solid #64ffda;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #64ffda;
+}
+
+.intro h1 {
+    color: #64ffda;
+}
+
+.intro h2 {
+    color: #ccd6f6;
+    font-size: 3rem;
+}
+
+.intro h3 {
+    color: #8892b0;
+    font-size: 2rem;
+}
+
+.intro p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.cta-btn {
+    background-color: transparent;
+    border: 2px solid #64ffda;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #64ffda;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #64ffda;
+    color: #0a192f;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #112240;
+}
